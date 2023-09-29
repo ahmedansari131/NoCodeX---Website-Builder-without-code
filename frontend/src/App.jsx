@@ -1,11 +1,21 @@
-import React from 'react'
+import React from "react";
+import Landing from "./pages/Landing";
+import { Container, Footer, Header } from "./components/index.js";
+import { Outlet } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
 
 const App = () => {
-  return (
-    <div>
-      This is NocodeX
-    </div>
-  )
-}
+  const dispatch = useDispatch();
 
-export default App
+  return (
+    <>
+      <Container>
+        <Header />
+        <Outlet />
+        <Footer/>
+      </Container>
+    </>
+  );
+};
+
+export default App;
