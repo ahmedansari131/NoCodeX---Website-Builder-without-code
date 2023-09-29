@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const Container = () => {
-  return (
-    <div>
-      This is container
-    </div>
-  )
-}
+const Container = ({ children }) => {
+  return <div className="w-full mx-auto">{children}</div>;
+};
 
-export default Container
+export default Container;
