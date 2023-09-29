@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
 
-const TertiaryBtn = () => {
+const TertiaryBtn = ({ text, type = "button", className = "", ...props }) => {
   return (
-    <div>
-      This is tertiary button
-    </div>
-  )
-}
+    <button
+      type={type}
+      {...props}
+      className={`py-2 text-lg rounded-md text-white font-medium transition-all duration-200 hover:text-teal-500 ${className}`}
+    >
+      {text}
+    </button>
+  );
+};
 
-export default TertiaryBtn
+export default TertiaryBtn;
