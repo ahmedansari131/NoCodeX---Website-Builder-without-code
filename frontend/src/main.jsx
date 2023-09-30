@@ -9,14 +9,16 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 import { Provider } from "react-redux";
-import {store} from './store/store.js'
-import { Login, Landing, Signup } from "./pages/index.js";
+import { store } from "./store/store.js";
+import { Login, Landing, Signup, EmailVerification } from "./pages/index.js";
+import { PrivateRoutes } from "./components/index.js";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
-      <Route path="" element={<Landing />} />
+      <Route path="/" element={<Landing />} />
       <Route path="signup" element={<Signup />} />
+      <Route path="verify-email" element={<PrivateRoutes VerifyEmail={EmailVerification} /> } />
       <Route path="login" element={<Login />} />
     </Route>
   )
