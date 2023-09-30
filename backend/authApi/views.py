@@ -61,6 +61,7 @@ class VerifyOtp(APIView):
                     )
 
                 if user[0].otp != otp:
+                    print("Otp does not matched")
                     return Response(
                         {
                             "status": 400,

@@ -3,6 +3,10 @@ from .models import User
 
 
 class UserSerializer(serializers.ModelSerializer):
+    
+    # def validate_email(self, request):
+
+
     class Meta:
         model = User
         fields = ["email", "name", "password", "is_verified"]
