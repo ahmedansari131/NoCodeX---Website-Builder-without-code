@@ -24,8 +24,8 @@ const Login = () => {
 
   return (
     <>
-      <div className="bg-gray-900 text-white flex justify-center items-center h-screen">
-        <div className="m-28 bg-gray-800 rounded-lg flex items-center overflow-hidden">
+      <div className="bg-gray-900 text-white flex justify-center items-center w-full p-20 px-96">
+        <div className=" bg-gray-800 rounded-lg flex items-center overflow-hidden w-full">
           <div className="w-full h-full flex items-center justify-center px-14 py-12">
             <form
               onClick={(e) => loginHandler(e)}
@@ -45,7 +45,7 @@ const Login = () => {
                 <PrimaryBtn text="Login" />
                 <p>or</p>
                 <div className="flex justify-between w-full items-center gap-6">
-                  <SecondaryBtn text={<GoogleIcon />} />
+                  <SecondaryBtn text={<GoogleIcon />}/>
                 </div>
                 <div className="flex items-center gap-2 text-gray-400 font-light mt-3">
                   <p>Don't have an account?</p>
