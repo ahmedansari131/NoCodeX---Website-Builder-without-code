@@ -23,18 +23,13 @@ NoCodeX aims to empower individuals and small businesses to create their online 
 ## Features
 
 - Drag-and-Drop Builder: Easily design your website by dragging and dropping elements onto the canvas.
-
 - Pre-built Templates: Choose from a variety of professionally designed templates to kickstart your project.
-
 - User Authentication: Secure user registration and login functionality.
-
 - Dynamic Web Apps (Future): Our roadmap includes the development of dynamic web application features.
-
 - Responsive Design: Ensure your website looks great on all devices with built-in responsive design tools.
-
 - Customizable Styling: Fine-tune your website's appearance with easy-to-use styling options.
-
 - Collaboration (Future): Collaborate with others on website projects (on the roadmap).
+  
 ## Technologies
 
 **Client:**
