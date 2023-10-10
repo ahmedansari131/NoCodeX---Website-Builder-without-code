@@ -6,8 +6,10 @@ import Header from "./header/Header";
 import Footer from "./footer/Footer";
 import Input from "./input/Input";
 import Loader from "./loader/Loader";
-import Popup from "./popup/Popup";
 import PrivateRoutes from "./Private/PrivateRoutes";
+import Success from "./messages/Success";
+import Error from "./messages/Error";
+import Dropdown from "./dropdown/Dropdown";
 
 export {
     PrimaryBtn,
@@ -18,6 +20,8 @@ export {
     Footer,
     Input,
     Loader,
-    Popup,
     PrivateRoutes,
+    Success,
+    Error,
+    Dropdown,
 }
