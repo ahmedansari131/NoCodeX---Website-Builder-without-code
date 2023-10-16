@@ -1,5 +1,5 @@
 
-# NoCodeX - Website Builder
+# NoCodeX - A Website Builder (No Code Platform)
 
 NoCodeX is an innovative website builder application designed for non-technical users. With NoCodeX, anyone can create stunning websites without the need for coding skills. Whether you want to build a personal blog, an online portfolio, or a small business website, NoCodeX has you covered. This README provides essential information for setting up, running, and contributing to the NoCodeX project.
 
